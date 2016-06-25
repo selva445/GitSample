@@ -11,6 +11,8 @@ public class NewTest {
 		driver.get("http://www.lufthansa.com/ua/en/Homepage#");
 		driver.manage().window().maximize();
 		//@SuppressWarnings("unused")
+		//@SuppressWarnings("unused")
+		//@SuppressWarnings("unused")
 		String st=driver.getTitle();
 		String gt="Ready for";
 		Assert.assertEquals(st,gt);
