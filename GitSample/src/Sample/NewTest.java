@@ -12,7 +12,7 @@ public class NewTest {
 		driver.manage().window().maximize();
 		//@SuppressWarnings("unused")
 		//@SuppressWarnings("unused")
-		//@SuppressWarnings("unused")
+		System.out.println("Hello");
 		String st=driver.getTitle();
 		String gt="Ready for";
 		Assert.assertEquals(st,gt);
